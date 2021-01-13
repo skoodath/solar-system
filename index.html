@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="universe">
+        <nav class="show_planet_names">
+            <div>
+                <h4 class="show_planet_title">Show Data</h4>
+                <span></span>
+            </div>
+            <ul class="planet_name_wrapper">
+                <li class="planet_name">Mercury</li>
+                <li class="planet_name">Venus</li>
+                <li class="planet_name">Earth</li>
+                <li class="planet_name">Mars</li>
+                <li class="planet_name">Jupiter</li>
+                <li class="planet_name">Saturn</li>
+                <li class="planet_name">Uranus</li>
+                <li class="planet_name">Neptune</li>
+            </ul>
+        </nav>
+        <div class="planet_details_wrapper planet_details_hide">
+            <span class="planet_details_close">&times;</span>
+            <h3 class="planet_card_title">Jupiter</h3>
+            <div class="planet_details_inner">
+                <div class="planet_details_image">
+                    <img src="images/jupiter.png" alt="Jupiter" />
+                </div>
+                <div class="planet_details_content">
+                    <ul class="planet_card_wrapper">
+                        <li class="planet_details_card planet_details_diameter">diameter: </li>
+                        <li class="planet_details_card planet_details_speed">Time to Orbit: </li>
+                        <li class="planet_details_card planet_details_orbitlength">Orbit Diameter</li>
+                        <li class="planet_details_card planet_details_moons">Moon: </li>
+                        <li class="planet_details_card planet_details_distancefromsun">Distance from Sun: </li>
+                        <li class="planet_details_card planet_details_distancefromearth">Distance from Earth: </li>
+                        <li class="planet_details_card planet_details_surfacetemp">Surface Temperature: </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div id="galaxy" class="galaxy">
+        <div class="solar-system">
+            <div class="sun"></div>
+            <div id="mercury" class="planets orbit_mercury">
+                <div class="planet_invert">
+                    <div class="planet mercury">
+                    </div>
+                </div>
+            </div>
+            <div id="venus" class="planets orbit_venus">
+                <div class="planet_invert">
+                    <div class="planet venus">
+                    </div>
+                </div>
+            </div>
+            <div id="earth" class="planets orbit_earth">
+                
+                <div class="planet_invert">
+                    <div class="planet earth"></div>
+                </div>
+            </div>
+            <div id="mars" class="planets orbit_mars">
+                <div class="planet_invert">
+                    <div class="planet mars"></div>
+                </div>
+            </div>
+            <div id="jupiter" class="planets orbit_jupiter">
+                <div class="planet_invert">
+                    <div class="planet jupiter">
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="saturn" class="planets orbit_saturn">
+                <div class="planet_invert">
+                    <div class="planet saturn">
+                            <div class="saturn_rings"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="uranus" class="planets orbit_uranus">
+                <div class="planet_invert">
+                    <div class="planet uranus"></div>
+                </div>
+            </div>
+            <div id="neptune" class="planets orbit_neptune">
+                <div class="planet_invert">
+                    <div class="planet neptune"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

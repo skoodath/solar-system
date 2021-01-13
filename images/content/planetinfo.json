@@ -1,0 +1,118 @@
+[
+    {
+        "id": 0,
+        "name": "Sun",
+        "diameter": 2323245454,
+        "speed": "20km",
+        "orbit": "30000km",
+        "moons": 0,
+        "distancetosun": 0,
+        "distancetoearth": 0,
+        "image": "../images/sun.png",
+        "temp": "3000F"
+
+    },
+    {
+        "id": 0,
+        "name": "Mercury",
+        "diameter": 2323245454,
+        "speed": "20km",
+        "orbit": "30000km",
+        "moons": 0,
+        "distancetosun": 0,
+        "distancetoearth": 0,
+        "image": "../images/sun.png",
+        "temp": "3000F"
+
+    },
+    {
+        "id": 0,
+        "name": "Venus",
+        "diameter": 2323245454,
+        "speed": "20km",
+        "orbit": "30000km",
+        "moons": 0,
+        "distancetosun": 0,
+        "distancetoearth": 0,
+        "image": "../images/sun.png",
+        "temp": "3000F"
+
+    },
+    {
+        "id": 0,
+        "name": "Earth",
+        "diameter": 2323245454,
+        "speed": "20km",
+        "orbit": "30000km",
+        "moons": 0,
+        "distancetosun": 0,
+        "distancetoearth": 0,
+        "image": "../images/sun.png",
+        "temp": "3000F"
+
+    },{
+        "id": 0,
+        "name": "Mars",
+        "diameter": 2323245454,
+        "speed": "20km",
+        "orbit": "30000km",
+        "moons": 0,
+        "distancetosun": 0,
+        "distancetoearth": 0,
+        "image": "../images/sun.png",
+        "temp": "3000F"
+
+    },
+    {
+        "id": 0,
+        "name": "Jupiter",
+        "diameter": 2323245454,
+        "speed": "20km",
+        "orbit": "30000km",
+        "moons": 0,
+        "distancetosun": 0,
+        "distancetoearth": 0,
+        "image": "../images/sun.png",
+        "temp": "3000F"
+
+    },
+    {
+        "id": 0,
+        "name": "Saturn",
+        "diameter": 2323245454,
+        "speed": "20km",
+        "orbit": "30000km",
+        "moons": 0,
+        "distancetosun": 0,
+        "distancetoearth": 0,
+        "image": "../images/sun.png",
+        "temp": "3000F"
+
+    },
+    {
+        "id": 0,
+        "name": "Uranus",
+        "diameter": 2323245454,
+        "speed": "20km",
+        "orbit": "30000km",
+        "moons": 0,
+        "distancetosun": 0,
+        "distancetoearth": 0,
+        "image": "../images/sun.png",
+        "temp": "3000F"
+
+    },
+    {
+        "id": 0,
+        "name": "Neptune",
+        "diameter": 2323245454,
+        "speed": "20km",
+        "orbit": "30000km",
+        "moons": 0,
+        "distancetosun": 0,
+        "distancetoearth": 0,
+        "image": "../images/sun.png",
+        "temp": "3000F"
+
+    }
+]
