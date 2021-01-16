@@ -9,7 +9,7 @@
         "distancetosun": "0",
         "distancetoearth": "147 million km",
         "image": "images/sun.png",
-        "avg-temp": "10000°F/5500°C"
+        "avg_temp": "10000°F/5500°C"
 
     },
     {
@@ -22,7 +22,7 @@
         "distancetosun": "53 million km",
         "distancetoearth": "77 million km",
         "image": "images/mercury.png",
-        "avg-temp": "800°F/430°C"
+        "avg_temp": "800°F/430°C"
 
     },
     {
@@ -35,7 +35,7 @@
         "distancetosun": "108 million km",
         "distancetoearth": "25 million km",
         "image": "images/venus.png",
-        "avg-temp": "880°F/471°C"
+        "avg_temp": "880°F/471°C"
 
     },
     {
@@ -48,7 +48,7 @@
         "distancetosun": "147 million km",
         "distancetoearth": "0 km",
         "image": "images/earth.png",
-        "avg-temp": "61°F/16°C"
+        "avg_temp": "61°F/16°C"
 
     },
     {
@@ -61,7 +61,7 @@
         "distancetosun": "230 million km",
         "distancetoearth": "54.6 million km",
         "image": "images/mars.png",
-        "avg-temp": "-20°F/-28°C"
+        "avg_temp": "-20°F/-28°C"
 
     },
     {
@@ -74,7 +74,7 @@
         "distancetosun": "762 million km",
         "distancetoearth": "588 million km",
         "image": "images/jupiter.png",
-        "avg-temp": "-162°F/-108°C"
+        "avg_temp": "-162°F/-108°C"
 
     },
     {
@@ -87,7 +87,7 @@
         "distancetosun": "1.5 billion km",
         "distancetoearth": "1.2 billion km",
         "image": "images/saturn.png",
-        "avg-temp": "-218°F/-138°C"
+        "avg_temp": "-218°F/-138°C"
 
     },
     {
@@ -100,7 +100,7 @@
         "distancetosun": "3 billion km",
         "distancetoearth": "2.6 billion km",
         "image": "images/uranus.png",
-        "avg-temp": "-320°F/-195°C"
+        "avg_temp": "-320°F/-195°C"
 
     },
     {
@@ -113,7 +113,7 @@
         "distancetosun": "4.5 billion km",
         "distancetoearth": "2.7 billion km",
         "image": "images/neptune.png",
-        "avg-temp": "388°F/-233°C"
+        "avg_temp": "388°F/-233°C"
 
     }
     
