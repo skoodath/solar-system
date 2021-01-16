@@ -198,8 +198,8 @@ body {
 }
 
 .saturn {
-  width: 3.4em;
-  height: 3.4em;
+  width: 3em;
+  height: 3em;
   background-image: url("images/saturn.png");
   background-size: cover;
   z-index: 5;
@@ -393,13 +393,13 @@ body {
 
 @keyframes shadowrotate {
   0% {
-    box-shadow: 0.2rem 0 0.5rem #000 inset;
+    box-shadow: 0.2rem 0 0.7rem #000 inset;
   }
   25% {
-    box-shadow: 0.4rem 0.2rem 1.8rem #000 inset;
+    box-shadow: 0.2rem 0 2rem 0.5rem #000 inset;
   }
   50% {
-    box-shadow: -0.1rem -0.2rem 1rem #000 inset;
+    box-shadow: -0.1rem 0 1.5rem #000 inset;
   }
   75% {
     box-shadow: 0 0 0.1rem #000 inset;

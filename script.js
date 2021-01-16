@@ -19,3 +19,15 @@ for (let i = 0; i < planetName.length; i++){
             } 
         });
 }
+
+const fetchInfo = () =>{
+    axios.get('https://skoodath.github.io/solar-system/content/planetinfo.json')
+    .then(response =>{
+        console.log(response.data);
+    })
+    .catch(error =>{
+        console.log(error.message);
+    })
+}
+
+fetchInfo();

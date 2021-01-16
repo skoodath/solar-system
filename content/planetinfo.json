@@ -2,117 +2,119 @@
     {
         "id": 0,
         "name": "Sun",
-        "diameter": 2323245454,
-        "speed": "20km",
-        "orbit": "30000km",
+        "circumference": "4.4 million km",
+        "orbit_period": "0",
+        "orbit_speed": "0",
         "moons": 0,
-        "distancetosun": 0,
-        "distancetoearth": 0,
-        "image": "../images/sun.png",
-        "temp": "3000F"
+        "distancetosun": "0",
+        "distancetoearth": "147 million km",
+        "image": "images/sun.png",
+        "avg-temp": "10000°F/5500°C"
 
     },
     {
-        "id": 0,
+        "id": 1,
         "name": "Mercury",
-        "diameter": 2323245454,
-        "speed": "20km",
-        "orbit": "30000km",
+        "circumference": "15,329 km",
+        "orbit_period": "88 days",
+        "orbit_speed": "47.36 km/s",
         "moons": 0,
-        "distancetosun": 0,
-        "distancetoearth": 0,
-        "image": "../images/sun.png",
-        "temp": "3000F"
+        "distancetosun": "53 million km",
+        "distancetoearth": "77 million km",
+        "image": "images/mercury.png",
+        "avg-temp": "800°F/430°C"
 
     },
     {
-        "id": 0,
+        "id": 2,
         "name": "Venus",
-        "diameter": 2323245454,
-        "speed": "20km",
-        "orbit": "30000km",
+        "circumference": "38,025 km",
+        "orbit_period": "225 days",
+        "orbit_speed": "35 km/s",
         "moons": 0,
-        "distancetosun": 0,
-        "distancetoearth": 0,
-        "image": "../images/sun.png",
-        "temp": "3000F"
+        "distancetosun": "108 million km",
+        "distancetoearth": "25 million km",
+        "image": "images/venus.png",
+        "avg-temp": "880°F/471°C"
 
     },
     {
-        "id": 0,
+        "id": 3,
         "name": "Earth",
-        "diameter": 2323245454,
-        "speed": "20km",
-        "orbit": "30000km",
-        "moons": 0,
-        "distancetosun": 0,
-        "distancetoearth": 0,
-        "image": "../images/sun.png",
-        "temp": "3000F"
+        "circumference": "40,075 km",
+        "orbit_period": "365 days",
+        "orbit_speed": "30 km/s",
+        "moons": 1,
+        "distancetosun": "147 million km",
+        "distancetoearth": "0 km",
+        "image": "images/earth.png",
+        "avg-temp": "61°F/16°C"
 
-    },{
-        "id": 0,
+    },
+    {
+        "id": 4,
         "name": "Mars",
-        "diameter": 2323245454,
-        "speed": "20km",
-        "orbit": "30000km",
-        "moons": 0,
-        "distancetosun": 0,
-        "distancetoearth": 0,
-        "image": "../images/sun.png",
-        "temp": "3000F"
+        "circumference": "21,344 km",
+        "orbit_period": "687 days",
+        "orbit_speed": "24 km/s",
+        "moons": 2,
+        "distancetosun": "230 million km",
+        "distancetoearth": "54.6 million km",
+        "image": "images/mars.png",
+        "avg-temp": "-20°F/-28°C"
 
     },
     {
-        "id": 0,
+        "id": 5,
         "name": "Jupiter",
-        "diameter": 2323245454,
-        "speed": "20km",
-        "orbit": "30000km",
-        "moons": 0,
-        "distancetosun": 0,
-        "distancetoearth": 0,
-        "image": "../images/sun.png",
-        "temp": "3000F"
+        "circumference": "439,264 km",
+        "orbit_period": "12 years",
+        "orbit_speed": "13 km/s",
+        "moons": 82,
+        "distancetosun": "762 million km",
+        "distancetoearth": "588 million km",
+        "image": "images/jupiter.png",
+        "avg-temp": "-162°F/-108°C"
 
     },
     {
-        "id": 0,
+        "id": 6,
         "name": "Saturn",
-        "diameter": 2323245454,
-        "speed": "20km",
-        "orbit": "30000km",
-        "moons": 0,
-        "distancetosun": 0,
-        "distancetoearth": 0,
-        "image": "../images/sun.png",
-        "temp": "3000F"
+        "circumference": "378,675 km",
+        "orbit_period": "29 years",
+        "orbit_speed": "9.7 km/s",
+        "moons": 82,
+        "distancetosun": "1.5 billion km",
+        "distancetoearth": "1.2 billion km",
+        "image": "images/saturn.png",
+        "avg-temp": "-218°F/-138°C"
 
     },
     {
-        "id": 0,
+        "id": 7,
         "name": "Uranus",
-        "diameter": 2323245454,
-        "speed": "20km",
-        "orbit": "30000km",
-        "moons": 0,
-        "distancetosun": 0,
-        "distancetoearth": 0,
-        "image": "../images/sun.png",
-        "temp": "3000F"
+        "circumference": "160,590 km",
+        "orbit_period": "84 years",
+        "orbit_speed": "6.8 km/s",
+        "moons": 27,
+        "distancetosun": "3 billion km",
+        "distancetoearth": "2.6 billion km",
+        "image": "images/uranus.png",
+        "avg-temp": "-320°F/-195°C"
 
     },
     {
-        "id": 0,
+        "id": 8,
         "name": "Neptune",
-        "diameter": 2323245454,
-        "speed": "20km",
-        "orbit": "30000km",
-        "moons": 0,
-        "distancetosun": 0,
-        "distancetoearth": 0,
-        "image": "../images/sun.png",
-        "temp": "3000F"
+        "circumference": "155,600 km",
+        "orbit_period": "165 years",
+        "orbit_speed": "5.4 km/s",
+        "moons": 14,
+        "distancetosun": "4.5 billion km",
+        "distancetoearth": "2.7 billion km",
+        "image": "images/neptune.png",
+        "avg-temp": "388°F/-233°C"
 
     }
+    
 ]
