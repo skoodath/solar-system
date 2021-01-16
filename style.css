@@ -209,7 +209,7 @@ body {
 .uranus {
   width: 2em;
   height: 2em;
-  background-image: url("images/uranus1.png");
+  background-image: url("images/uranus.png");
   background-size: cover;
   z-index: 4;
 }
@@ -217,7 +217,7 @@ body {
 .neptune {
   width: 1.95em;
   height: 1.95em;
-  background-image: url("images/neptune1.png");
+  background-image: url("images/neptune.png");
   background-size: cover;
   z-index: 3;
 }
