@@ -86,7 +86,7 @@
         "moons": 82,
         "distancetosun": "1.5 billion km",
         "distancetoearth": "1.2 billion km",
-        "image": "images/saturn.png",
+        "image": "images/saturn1.png",
         "avg_temp": "-218°F/-138°C"
 
     },
@@ -113,7 +113,7 @@
         "distancetosun": "4.5 billion km",
         "distancetoearth": "2.7 billion km",
         "image": "images/neptune.png",
-        "avg_temp": "388°F/-233°C"
+        "avg_temp": "-388°F/-233°C"
 
     }
     
