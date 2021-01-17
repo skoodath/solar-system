@@ -51,7 +51,7 @@ const updatePlanetData = (data) =>{
             infoCircum.innerHTML = `Circumference: ${data[0].circumference}`;
             infoPeriod.innerHTML = `Orbit Period: ${data[0].orbit_period}`;
             infoSpeed.innerHTML = `Orbit Speed: ${data[0].orbit_speed}`;
-            infoMoon.innerHTML = `No.of Moon: ${data[0].moons}`;
+            infoMoon.innerHTML = `No.of Moons: ${data[0].moons}`;
             infoDistSun.innerHTML = `Distance from Sun: ${data[0].distancetosun}`;
             infoDistEarth.innerHTML = `Distance from Earth: ${data[0].distancetoearth}`;
             infoTemp.innerHTML = `Surface Temperature: ${data[0].avg_temp}`;

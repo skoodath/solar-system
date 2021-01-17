@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   vertical-align: baseline;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Antic", sans-serif;
   list-style-type: none;
 }
 
@@ -204,6 +205,7 @@ body {
   background-size: cover;
   z-index: 5;
   margin: -1em 0 0 -1em;
+  box-shadow: 0 0 15px #000 inset;
 }
 
 .uranus {
@@ -396,28 +398,35 @@ body {
     flex-direction: column;
   }
 }
-.planet {
-  animation-name: shadowrotate;
-  animation-iteration-count: infinite;
+/*Shadows on rotate
+
+.planet{
+    animation-name: shadowrotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-@keyframes shadowrotate {
-  0% {
-    box-shadow: 0.2rem 0 0.7rem #000 inset;
-  }
-  25% {
-    box-shadow: 0.2rem 0 2rem 0.5rem #000 inset;
-  }
-  50% {
-    box-shadow: -0.1rem 0 1.5rem #000 inset;
-  }
-  75% {
-    box-shadow: 0 0 0.1rem #000 inset;
-  }
-  100% {
-    box-shadow: 0.1rem 0.08rem 0.5rem #000 inset;
-  }
-}
+@keyframes shadowrotate{
+    0%{
+        box-shadow: 0.4em 0 0.5em #000 inset;
+    }
+    25%{
+        box-shadow: 0.4em 0 1em #000 inset;
+    }
+
+    50%{
+        box-shadow: 0.8em -0.4em 0.6em #000 inset;
+    }
+    50.01%{
+        box-shadow: -0.8em -0.2em 0.6em #000 inset;
+    }
+    75%{
+        box-shadow: 0 0.2em 0.4em #000 inset;
+    }
+    100%{
+        box-shadow: 0 0 3px #000 inset;
+    }
+}*/
 /* Card Details */
 .planet_details_wrapper {
   display: flex;
@@ -504,9 +513,10 @@ body {
 }
 
 .planet_details_card {
-  margin: 0 0 1rem 0;
-  font-size: 24px;
+  margin: 0 0 0.5rem 0;
+  font-size: 26px;
   text-align: left;
+  letter-spacing: 1px;
 }
 
 .show_planet_names {
