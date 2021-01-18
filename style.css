@@ -24,6 +24,15 @@ body {
   background-position: center center;
 }
 
+.page_title {
+  position: fixed;
+  width: 100%;
+  color: #fff;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
 .galaxy {
   position: relative;
   width: 100%;
@@ -362,15 +371,27 @@ body {
   .universe {
     font-size: 80%;
   }
+
+  .page_title {
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 65rem) {
   .universe {
     font-size: 68%;
   }
+
+  .page_title {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 50rem) {
   .universe {
     font-size: 53%;
+  }
+
+  .page_title {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 35rem) {
