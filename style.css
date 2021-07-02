@@ -92,7 +92,7 @@ body {
   top: 50%;
   margin: -7em 0 0 -7em;
   transform-style: preserve-3d;
-  animation: goaround 6s infinite linear;
+  animation: goaroundvenus 6s infinite linear;
 }
 
 .orbit_earth {
@@ -244,6 +244,17 @@ body {
   transform-style: preserve-3d;
 }
 
+.planet_invert_venus {
+  position: absolute;
+  top: 50%;
+  width: 2em;
+  height: 2em;
+  margin: -1em 0 0 -1em;
+  animation: pinvertvenus infinite linear;
+  -webkit-animation: pinvertvenus infinite linear;
+  transform-style: preserve-3d;
+}
+
 #neptune .planet_invert,
 #neptune .planet {
   animation-duration: 1979s;
@@ -274,7 +285,7 @@ body {
   animation-duration: 12s;
 }
 
-#venus .planet_invert,
+#venus .planet_invert_venus,
 #venus .planet {
   animation-duration: 6s;
 }
@@ -324,6 +335,22 @@ body {
     transform: rotateZ(-360deg);
   }
 }
+@keyframes goaroundvenus {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes goaroundvenus {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
 @keyframes pinvert {
   0% {
     transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
@@ -338,6 +365,22 @@ body {
   }
   100% {
     transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+@keyframes pinvertvenus {
+  0% {
+    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(90deg) rotateY(-360deg) rotateZ(0deg);
+  }
+}
+@-webkit-keyframes pinvertvenus {
+  0% {
+    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(90deg) rotateY(-360deg) rotateZ(0deg);
   }
 }
 /*-------PLANET INFO-------*/
