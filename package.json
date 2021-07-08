@@ -1,0 +1,28 @@
+{
+  "name": "solar-system",
+  "version": "1.0.0",
+  "description": "A scaled 3d model of the solar system",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skoodath/solar-system.git"
+  },
+  "keywords": [
+    "solar",
+    "system",
+    "planets",
+    "3d"
+  ],
+  "author": "Shiju Nambiar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skoodath/solar-system/issues"
+  },
+  "homepage": "https://github.com/skoodath/solar-system#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
