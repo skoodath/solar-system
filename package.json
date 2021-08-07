@@ -23,6 +23,15 @@
   },
   "homepage": "https://github.com/skoodath/solar-system#readme",
   "devDependencies": {
-    "jest": "^27.0.6"
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jest": "^27.0.6",
+    "sass": "^1.37.5"
+  },
+  "dependencies": {
+    "gulp-uglifycss": "^1.1.0",
+    "readable-stream": "^3.6.0"
   }
 }

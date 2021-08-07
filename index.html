@@ -1,110 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3D Model: Solar System</title>
-    <meta name="description" content="3D model of our solar system with scaled relative speed of orbit of each planet and trivia about them. Built with HTML, CSS and JavaScript.">
-    <meta name="author" content="Shiju Nambiar">
-    <meta property="og:title" content="3D Model: Solar System">
-    <meta property="og:description" content="3D model of our solar system with scaled relative speed of orbit of each planet and trivia about them. Built with HTML, CSS and JavaScript.">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <meta
+      name="description"
+      content="3D model of our solar system with scaled relative speed of orbit of each planet and trivia about them. Built with HTML, CSS and JavaScript."
+    />
+    <meta name="author" content="Shiju Nambiar" />
+    <meta property="og:title" content="3D Model: Solar System" />
+    <meta
+      property="og:description"
+      content="3D model of our solar system with scaled relative speed of orbit of each planet and trivia about them. Built with HTML, CSS and JavaScript."
+    />
+    <link rel="stylesheet" href="./dist/styles/style.css" />
+  </head>
+  <body>
     <div class="universe">
-        <h1 class="page_title">Solar System 3D</h1>
-        <nav class="show_planet_names">
-            <div>
-                <span></span>
-            </div>
-            <ul class="planet_name_wrapper">
-                <li class="planet_name" data-name="sun">Sun</li>
-                <li class="planet_name" data-name="mercury">Mercury</li>
-                <li class="planet_name" data-name="venus">Venus</li>
-                <li class="planet_name" data-name="earth">Earth</li>
-                <li class="planet_name" data-name="mars">Mars</li>
-                <li class="planet_name" data-name="jupiter">Jupiter</li>
-                <li class="planet_name" data-name="saturn">Saturn</li>
-                <li class="planet_name" data-name="uranus">Uranus</li>
-                <li class="planet_name" data-name="neptune">Neptune</li>
+      <h1 class="page_title">Solar System 3D</h1>
+      <nav class="show_planet_names">
+        <div>
+          <span></span>
+        </div>
+        <ul class="planet_name_wrapper">
+          <li class="planet_name" data-name="sun">Sun</li>
+          <li class="planet_name" data-name="mercury">Mercury</li>
+          <li class="planet_name" data-name="venus">Venus</li>
+          <li class="planet_name" data-name="earth">Earth</li>
+          <li class="planet_name" data-name="mars">Mars</li>
+          <li class="planet_name" data-name="jupiter">Jupiter</li>
+          <li class="planet_name" data-name="saturn">Saturn</li>
+          <li class="planet_name" data-name="uranus">Uranus</li>
+          <li class="planet_name" data-name="neptune">Neptune</li>
+        </ul>
+      </nav>
+      <div class="planet_details_wrapper planet_details_hide">
+        <span class="planet_details_close">&times;</span>
+        <h3 class="planet_card_title"></h3>
+        <div class="planet_details_inner">
+          <div class="planet_details_image">
+            <img src="" alt="Jupiter" class="planet_details_img" />
+          </div>
+          <div class="planet_details_content">
+            <ul class="planet_card_wrapper">
+              <li class="planet_details_card planet_details_circum">
+                Circumference:
+              </li>
+              <li class="planet_details_card planet_details_orb_period">
+                Orbit Period:
+              </li>
+              <li class="planet_details_card planet_details_orb_speed">
+                Orbit Speed:
+              </li>
+              <li class="planet_details_card planet_details_moons">
+                No. of Moons:
+              </li>
+              <li class="planet_details_card planet_details_distancefromsun">
+                Distance from Sun:
+              </li>
+              <li class="planet_details_card planet_details_distancefromearth">
+                Distance from Earth:
+              </li>
+              <li class="planet_details_card planet_details_surfacetemp">
+                Surface Temperature:
+              </li>
             </ul>
-        </nav>
-        <div class="planet_details_wrapper planet_details_hide">
-            <span class="planet_details_close">&times;</span>
-            <h3 class="planet_card_title"></h3>
-            <div class="planet_details_inner">
-                <div class="planet_details_image">
-                    <img src="" alt="Jupiter" class="planet_details_img" />
-                </div>
-                <div class="planet_details_content">
-                    <ul class="planet_card_wrapper">
-                        <li class="planet_details_card planet_details_circum">Circumference: </li>
-                        <li class="planet_details_card planet_details_orb_period">Orbit Period: </li>
-                        <li class="planet_details_card planet_details_orb_speed">Orbit Speed: </li>
-                        <li class="planet_details_card planet_details_moons">No. of Moons: </li>
-                        <li class="planet_details_card planet_details_distancefromsun">Distance from Sun: </li>
-                        <li class="planet_details_card planet_details_distancefromearth">Distance from Earth: </li>
-                        <li class="planet_details_card planet_details_surfacetemp">Surface Temperature: </li>
-                    </ul>
-                </div>
-            </div>
-            
+          </div>
         </div>
-        <div id="galaxy" class="galaxy">
+      </div>
+      <div id="galaxy" class="galaxy">
         <div class="solar-system">
-            <div class="sun"></div>
-            <div id="mercury" class="planets orbit_mercury">
-                <div class="planet_invert">
-                    <div class="planet mercury">
-                    </div>
-                </div>
+          <div class="sun"></div>
+          <div id="mercury" class="planets orbit_mercury">
+            <div class="planet_invert">
+              <div class="planet mercury"></div>
             </div>
-            <div id="venus" class="planets orbit_venus">
-                <div class="planet_invert_venus">
-                    <div class="planet venus">
-                    </div>
-                </div>
+          </div>
+          <div id="venus" class="planets orbit_venus">
+            <div class="planet_invert_venus">
+              <div class="planet venus"></div>
             </div>
-            <div id="earth" class="planets orbit_earth">
-                
-                <div class="planet_invert">
-                    <div class="planet earth"></div>
-                </div>
+          </div>
+          <div id="earth" class="planets orbit_earth">
+            <div class="planet_invert">
+              <div class="planet earth"></div>
             </div>
-            <div id="mars" class="planets orbit_mars">
-                <div class="planet_invert">
-                    <div class="planet mars"></div>
-                </div>
+          </div>
+          <div id="mars" class="planets orbit_mars">
+            <div class="planet_invert">
+              <div class="planet mars"></div>
             </div>
-            <div id="jupiter" class="planets orbit_jupiter">
-                <div class="planet_invert">
-                    <div class="planet jupiter">
-                        
-                    </div>
-                </div>
+          </div>
+          <div id="jupiter" class="planets orbit_jupiter">
+            <div class="planet_invert">
+              <div class="planet jupiter"></div>
             </div>
-            <div id="saturn" class="planets orbit_saturn">
-                <div class="planet_invert">
-                    <div class="planet saturn">
-                            <div class="saturn_rings"></div>
-                    </div>
-                </div>
+          </div>
+          <div id="saturn" class="planets orbit_saturn">
+            <div class="planet_invert">
+              <div class="planet saturn">
+                <div class="saturn_rings"></div>
+              </div>
             </div>
-            <div id="uranus" class="planets orbit_uranus">
-                <div class="planet_invert">
-                    <div class="planet uranus"></div>
-                </div>
+          </div>
+          <div id="uranus" class="planets orbit_uranus">
+            <div class="planet_invert">
+              <div class="planet uranus"></div>
             </div>
-            <div id="neptune" class="planets orbit_neptune">
-                <div class="planet_invert">
-                    <div class="planet neptune"></div>
-                </div>
+          </div>
+          <div id="neptune" class="planets orbit_neptune">
+            <div class="planet_invert">
+              <div class="planet neptune"></div>
             </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-    <p class="note">Note: Images of planets used are enhanced images from the web and may not look exactly how we may have seen through space probes</p>
+    <p class="note">
+      Note: Images of planets used are enhanced images from the web and may not
+      look exactly seen through space probes!
+    </p>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
-    <script src="script.js"></script>
-</body>
+    <script src="./dist/script/script.js"></script>
+  </body>
 </html>
