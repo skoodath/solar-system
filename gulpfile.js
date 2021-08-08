@@ -1,4 +1,4 @@
-const gulp = require("gulp");
+const { parallel, src, dest, watch, series } = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
 const uglifycss = require("gulp-uglifycss");
 const uglifyjs = require("gulp-uglify");
@@ -6,32 +6,22 @@ const pipeline = require("readable-stream").pipeline;
 const browserSync = require("browser-sync");
 
 const style = () => {
-  return pipeline(
-    gulp.src("./*.scss"),
-    sass(),
-    uglifycss(),
-    gulp.dest("./dist/styles")
-  );
+  return pipeline(src("./*.scss"), sass(), uglifycss(), dest("./dist/styles"));
 };
 const script = () => {
-  return pipeline(
-    gulp.src("./js/*.js"),
-    uglifyjs(),
-    gulp.dest("./dist/script")
-  );
+  return pipeline(src("./js/*.js"), uglifyjs(), dest("./dist/script"));
 };
 
-const watch = () => {
+const watchReload = () => {
   browserSync.init({
     server: {
       baseDir: "./",
     },
   });
-  gulp.watch("./*.scss", style);
-  gulp.watch("./*.js", script);
-  gulp.watch("./*.html").on("change", browserSync.reload);
-  gulp.watch("./*.js").on("change", browserSync.reload);
+  watch("./*.scss", style);
+  watch("./*.js", script);
+  watch("./*.html").on("change", browserSync.reload);
+  watch("./*.js").on("change", browserSync.reload);
 };
-exports.style = style;
-exports.script = script;
-exports.watch = watch;
+
+exports.default = series(watchReload, parallel(style, script));
