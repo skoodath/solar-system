@@ -1,5 +1,8 @@
 {
   "name": "solar-system",
+  "jest": {
+    "verbose": true
+  },
   "version": "1.0.0",
   "description": "A scaled 3d model of the solar system",
   "main": "script.js",
@@ -31,6 +34,8 @@
     "sass": "^1.37.5"
   },
   "dependencies": {
+    "axios": "^0.26.1",
+    "gulp-jest": "^4.0.4",
     "gulp-uglifycss": "^1.1.0",
     "readable-stream": "^3.6.0"
   }
