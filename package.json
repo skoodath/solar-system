@@ -1,13 +1,10 @@
 {
   "name": "solar-system",
-  "jest": {
-    "verbose": true
-  },
   "version": "1.0.0",
   "description": "A scaled 3d model of the solar system",
   "main": "script.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -30,7 +27,7 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
-    "jest": "^27.0.6",
+    "mocha": "^10.1.0",
     "sass": "^1.37.5"
   },
   "dependencies": {
